@@ -58,5 +58,5 @@ const newProduct = transformPrice(nintendo);
 In this example:
 
 - The sum function takes two parameters (a and b) of type number and returns a number.
-- The transformPrice function takes an object with name and price properties, both of which are strings, and returns an object with the same structure.
+- The transformPrice function takes an object with name and price properties, both of which are strings, and returns an object with the same structure.<br /><br />
 These annotations help TypeScript understand how to check and enforce types throughout your code, which can catch errors early and improve code reliability.
