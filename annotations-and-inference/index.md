@@ -7,7 +7,7 @@ In TypeScript, you can specify the data type of a variable using annotations (:d
 const product: string = 'Book';
 
 // TypeScript can infer that 'price' is of type number
-let price: number = 200;
+let price = 200;
 
 // Annotation for an object with specified properties
 const car: {
