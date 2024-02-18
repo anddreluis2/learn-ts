@@ -1,6 +1,8 @@
-## How to Become a TypeScript Wizard 🧙‍♂️
+<h1>How to Become a TypeScript Wizard 🧙‍♂️</h1>
 
 So, you've decided to embark on this journey of mastering TypeScript! But fear not, young apprentice, for I shall equip you with the knowledge you seek. Here are the realms you must traverse:
+
+<h3>Basic TypeScript</h3>
 
 - [Any](./content/any/index.md)
 - [Annotations and Inference](./content/annotations-and-inference/index.md)
