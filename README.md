@@ -2,6 +2,7 @@
 
 So, you've decided to embark on this journey of mastering TypeScript! But fear not, young apprentice, for I shall equip you with the knowledge you seek. Here are the realms you must traverse:
 
+- [Any](./any/index.md)
 - [Annotations and Inference](./annotations-and-inference/index.md)
 - [Primitive Data Types](./primitive-data-types/index.md)
 - [Union Types](./union-types/index.md)
