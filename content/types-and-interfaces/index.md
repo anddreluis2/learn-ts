@@ -30,13 +30,6 @@ fillData({
 });
 ```
 
-- Here, `total` is initially assigned a numeric value `10`, which is allowed because `NumberOrString` encompasses both number and string types. Later, it is reassigned a string value `'200'`, again demonstrating the flexibility of the `NumberOrString` type.
-
-- The example also showcases a `Product` type, defining the structure of a product object with properties `name`, `price`, and `keyboard`. This type definition provides a clear and reusable way to specify the shape of such objects throughout the codebase.
-
-- The `paintCategory` function demonstrates the use of the Categories type, which is defined as a union of string literals `'design'`, `'code'`, and `'decode'`. This allows the function to accept only these specific categories as arguments, ensuring type safety and preventing unexpected values.
-
-
 ## Type
 The keyword type creates an alias for a custom type.
 
@@ -78,6 +71,12 @@ function paintCategory(category: Categories) {
 
 paintCategory('code');
 ```
+
+- Here, `total` is initially assigned a numeric value `10`, which is allowed because `NumberOrString` encompasses both number and string types. Later, it is reassigned a string value `'200'`, again demonstrating the flexibility of the `NumberOrString` type.
+
+- The example also showcases a `Product` type, defining the structure of a product object with properties `name`, `price`, and `keyboard`. This type definition provides a clear and reusable way to specify the shape of such objects throughout the codebase.
+
+- The `paintCategory` function demonstrates the use of the Categories type, which is defined as a union of string literals `'design'`, `'code'`, and `'decode'`. This allows the function to accept only these specific categories as arguments, ensuring type safety and preventing unexpected values.
 ## Interface
 
 Interfaces are generally used to define objects, usually in the same way as type, but with a different syntax.
@@ -109,7 +108,7 @@ function fillData(data: ProductInterface) {
 ```
 In TypeScript, both `type` and `interface` can be used to define custom types. However, there are some differences between them:
 
-<h1>Type</h1>:
+<h1>Type</h1>
 
 - `type` allows you to create aliases for existing types or define new ones using union, intersection, or other type operators.
 - It's flexible and concise, making it suitable for defining complex types or combining multiple existing types.
