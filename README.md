@@ -4,12 +4,12 @@ So, you've decided to embark on this journey of mastering TypeScript! But fear n
 
 <h3>Basic TypeScript</h3>
 
-- [Any](./content/any/index.md)
-- [Annotations and Inference](./content/annotations-and-inference/index.md)
-- [Primitive Data Types](./content/primitive-data-types/index.md)
-- [Union Types](./content/union-types/index.md)
-- [Type x Interface](./content//types-and-interfaces/index.md)
-- [Arrays](./content/arrays/index.md)
-- [Null and Undefined](./content/null-and-unfefined/index.md)
+- [Any](./basic-ts/any/index.md)
+- [Annotations and Inference](./basic-ts/annotations-and-inference/index.md)
+- [Primitive Data Types](./basic-ts/primitive-data-types/index.md)
+- [Union Types](./basic-ts/union-types/index.md)
+- [Type x Interface](./basic-ts//types-and-interfaces/index.md)
+- [Arrays](./basic-ts/arrays/index.md)
+- [Null and Undefined](./basic-ts/null-and-unfefined/index.md)
 
 Embark on these quests and emerge victorious as a true master of TypeScript magic! 🪄🧝
